@@ -1,0 +1,54 @@
+.feature{
+    width: 100%;
+}
+.featureWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.featureItem{
+    
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(134, 133, 133, 0.4); 
+    box-shadow: 0px 0px 16px 6px rgba(134, 133, 133, 0.4);
+    
+}
+.featureTitle{
+    color: rgb(105, 107, 107);
+    font-size: 24px;
+    font-weight: 600;
+}
+.featureBag{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.featureMoney{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.featureRate{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.featureRank{
+    margin-left: 3px;
+    font-size: 10px;
+}
+.featureRankRate{
+    color: red;
+    
+}
+.neoPoint{
+    color: green;
+}
+
+.featureCompare{
+    color: rgb(134, 134, 134);
+    font-size: 18px;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 import {Apps,AttachMoney,BarChart,CreditCard,DynamicFeed,Error,MailOutline,Message,PersonOutline,Storefront,Timeline,TrendingUp} from '@material-ui/icons';
-function Siderba(props) {
+function Siderbar(props) {
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
@@ -80,4 +80,4 @@ function Siderba(props) {
     );
 }
 
-export default Siderba;
+export default Siderbar;
