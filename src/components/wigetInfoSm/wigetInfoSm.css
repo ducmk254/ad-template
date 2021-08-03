@@ -1,0 +1,60 @@
+.wigetInfoSm{
+    flex: 1;
+    padding: 20px;
+
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(134, 133, 133, 0.4); 
+    box-shadow: 0px 0px 16px 6px rgba(134, 133, 133, 0.4);
+}
+.wigetInfoSmTitle{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.wigetInfoSmList{
+    margin: 20px 0;
+}
+.wigetInfoSmItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 10px 0;
+}
+.wigetInfoSmItem img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.wigetInfoSmContent{
+    /* margin-left: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wigetInfoSmName{
+    color: #494747;
+    font-weight: 600;
+    font-size: 18px;
+}
+.wigetInfoSmLabel{
+    font-weight: 400;
+    color: #7e7979;
+}
+.wigetInfoSmVisible{
+    /* margin-left: 20px; */
+    padding: 5px 7px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgba(180, 169, 197,0.4);
+    border-radius: 10px;
+
+    color: #6d6969;
+    font-weight: 400;
+    cursor: pointer;
+}
+.wigetInfoSmBtn{
+    margin-right: 7px;
+}

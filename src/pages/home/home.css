@@ -1,3 +1,7 @@
 .homepage{
     flex: 4;
 }
+.wigetInfo{
+    margin: 40px 20px 20px 20px;
+    display: flex;
+}
