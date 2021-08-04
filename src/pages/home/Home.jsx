@@ -1,9 +1,12 @@
 import './home.css';
 import Features from '../../components/features/Features';
-import Chart from '../../components/chart/Chart';
-import {userData} from "../../components/dummyData";
 import WigetInfoSm from '../../components/wigetInfoSm/WigetInfoSm';
 import WigetInfoLg from "../..//components/wigetInfoLg/WigetInfoLg";
+import Chart from '../../components/chart/Chart';
+import {userData} from "../../components/dummyData";
+
+
+
 const home = () => {
     return (
         <div className="homepage">

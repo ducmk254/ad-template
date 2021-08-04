@@ -45,3 +45,16 @@ export const userData = [{
         "Active users": 4000
     },
 ]
+
+export const userRow = [
+    { id: 1, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'active',point:'120' },
+    { id: 2, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'active',point:'120' },
+    { id: 3, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'disable',point:'120' },
+    { id: 4, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'active',point:'120' },
+    { id: 5, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'active',point:'120' },
+    { id: 6, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'disable',point:'120' },
+    { id: 7, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'active',point:'120' },
+    { id: 8, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'active',point:'120' },
+    { id: 9, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'disable',point:'120' },
+    { id: 10, username: 'Snow',avatar:'https://picsum.photos/200/300/?blur', email: 'Jon@mutosi.com', status: 'active',point:'120' },
+  ]
