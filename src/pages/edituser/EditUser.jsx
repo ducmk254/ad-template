@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import {PersonOutline,Event, PhoneIphone,MailOutline,LocationSearching,Publish} from '@material-ui/icons';
 const EditUser = () => {
     return (
-        <div className="editUser">
+        <div className="editUser flex">
             <div className="editUserWrapperTitle">
                 <h3 className="editUserTitle">
                     Edit User
