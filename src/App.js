@@ -3,7 +3,8 @@ import Topbar from "./components/topbar/Topbar";
 import Sidebar from "./components/sidebar/Siderba";
 import Home from "./pages/home/Home.jsx";
 import UserList from "./pages/users/UserList.jsx";
-import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import EditUser from "./pages/edituser/EditUser";
 
 function App() {
   return (
@@ -16,8 +17,11 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/users">
+            <Route exact path="/users">
               <UserList />
+            </Route>
+            <Route path="/users/:userId">
+              <EditUser />
             </Route>
           </div>
         </div>

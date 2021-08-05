@@ -1,0 +1,207 @@
+.editUser{
+    flex: 4;
+    padding: 20px;
+}
+.editUserWrapperTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+.editUserWrapperTitle a{
+    text-decoration: none;
+}
+.editUserTitle{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.editUserBtn{
+    border: none;
+    background-color: rgb(14, 151, 105);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 8px 20px;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.editUserWrapperInfo{
+    margin-top: 10px;
+    display: flex;
+    
+}
+.editUserShow{
+    border-radius: 10px;
+    padding: 20px;
+
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(134, 133, 133, 0.4); 
+    box-shadow: 0px 0px 16px 6px rgba(134, 133, 133, 0.4);
+}
+
+
+.editUserWrapperInfo{
+
+}
+
+.editUserShowHeader{
+    display: flex;
+    align-items: center;
+}
+
+.editUserShowHeader img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid rgb(132, 230, 197);
+    border-radius: 50%;
+
+    margin-right: 20px;
+}
+.editUserWrapperName{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.editUserName{
+    font-weight: 600;
+    font-size: 18px;   
+}
+.esitUserlabel{
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(65, 63, 63);
+
+    margin-top: 5px;
+}
+
+.editUserDetail{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.editUserDetailTitle{
+    font-size: 18px;
+    color: rgb(128, 126, 124);
+    font-weight: 500;
+}
+.editUserDetailList{
+    list-style: none;
+}
+.editUserDetailItem{
+    display: flex;
+    align-items: center;
+
+    padding: 10px 5px;
+
+}
+.editUserDetailIcon{
+    margin-right: 10px;
+}
+
+
+
+.editUserForm{
+    flex: 3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(134, 133, 133, 0.4); 
+    box-shadow: 0px 0px 16px 6px rgba(134, 133, 133, 0.4);
+
+    display: flex;
+    flex-direction: column;
+}
+.editUserFormContent{
+    display: flex;
+}
+.editUserFormLeft{
+    flex: 1;
+
+    padding: 20px;
+}
+.editUserFormTitle{
+    font-size: 26px;
+    font-weight: 600;
+}
+.editUserFormInput{
+    display: flex;
+    flex-direction: column;
+
+}
+.editUserFormInput label{
+    margin: 20px 0;
+}
+.editUserFormInput input{
+    padding: 10px 10px 5px px;
+
+    font-size: 16px;
+     
+    outline: none;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(221, 215, 215);
+}
+
+.editUserFormRight{
+    flex: 1;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.editUserUpload{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.editUserUpload img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 10px;
+    
+    margin-right: 20px;
+}
+
+.editUserUploadBtn{
+    font-size: 22px;
+    cursor: pointer;
+}
+.editUserFormBtn{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(10, 10, 175);
+
+    padding: 7px 40px;
+
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
