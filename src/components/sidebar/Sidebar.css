@@ -1,5 +1,4 @@
 .sidebar{
-    flex: 1;
     background-color: rgba(180, 169, 197,0.2);
 
     height: calc( 100vh - 50px);
@@ -24,6 +23,10 @@
     list-style: none;
     
 }
+.sidebarList a {
+    text-decoration: none;
+    color: black;
+}
 .sidebarItem{
     padding: 8px;
     margin: 5px 0;
@@ -43,4 +46,5 @@
 
 .negotion{
     color: green;
+    margin-right: 10px;
 }

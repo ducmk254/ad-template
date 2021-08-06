@@ -2,7 +2,10 @@
 .container {
   display: flex;
 }
-.flex{
+.flexLeft{
+  flex: 1;
+}
+.flexRight{
   flex: 4;
   padding: 20px;
 }

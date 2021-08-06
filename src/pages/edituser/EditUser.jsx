@@ -2,9 +2,9 @@ import React from 'react';
 import "./edituser.css";
 import {Link} from 'react-router-dom'
 import {PersonOutline,Event, PhoneIphone,MailOutline,LocationSearching,Publish} from '@material-ui/icons';
-const EditUser = () => {
+const EditUser = ({fullname,username,title,birthday,phone,email,address}) => {
     return (
-        <div className="editUser flex">
+        <div className="editUser flexRight">
             <div className="editUserWrapperTitle">
                 <h3 className="editUserTitle">
                     Edit User

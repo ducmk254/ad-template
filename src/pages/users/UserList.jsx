@@ -63,7 +63,7 @@ const UserList = () => {
         },
       ];
     return (
-        <div className="userList flex">
+        <div className="userList flexRight">
             <h3 className="userListTitle">Users list</h3>
             <DataGrid rows={userData} columns={columns} pageSize={10} checkboxSelection disableSelectionOnClick>
 

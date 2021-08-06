@@ -9,7 +9,7 @@ import {userData} from "../../components/dummyData";
 
 const home = () => {
     return (
-        <div className="homepage flex">
+        <div className="homepage flexRight">
             <Features />
             <Chart data={userData} grid title="User Analytics" dataKey="Active users" />
             <div className="wigetInfo">
